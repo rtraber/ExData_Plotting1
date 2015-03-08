@@ -5,16 +5,15 @@ date: "03/08/2015"
 output: html_document
 ---
 
-## Introduction
+## File Descriptions
 
-```{r}
-summary(cars)
-```
+The four plot_.R files implement to code to produce the requsted charts. These four functions assume a clean data.frame named power.consf in the "global environment". The code for downloading and cleaning the data is in the file importdata.R.
 
-You can also embed plots, for example:
+## Execution
+Run the following commands in R to produce the png files in the current directory:
 
-```{r, echo=FALSE}
-plot(cars)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+* source('importdata.R')
+* source('plot1.R')
+* source('plot2.R')
+* source('plot3.R')
+* source('plot4.R')
