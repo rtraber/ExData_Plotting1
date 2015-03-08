@@ -7,7 +7,7 @@ output: html_document
 
 ## File Descriptions
 
-The four plot_.R files implement to code to produce the requsted charts. These four functions assume a clean data.frame named power.consf in the "global environment". The code for downloading and cleaning the data is in the file importdata.R.
+The four plot_.R files implement to code to produce the requested charts. These four functions assume a clean data.frame named power.consf in the "global environment". The code for downloading and cleaning the data is in the file importdata.R.
 
 ## Execution
 Run the following commands in R to produce the png files in the current directory:
